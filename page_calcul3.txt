@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur d'Empreinte Écologique</title>
+</head>
+<body>
+    
+    <header>
+        <table style="width: 100%;">
+            <tr>
+                <td><img src="logo.png" alt="Logo du site" width="50" height="50"></td>
+                <td style="text-align: center;"><h1 style="margin: 0;">Calculateur d'Empreinte Écologique</h1></td>
+                <td style="text-align: right;"><input type="text" placeholder="Rechercher..."></td>
+            </tr>
+        </table>
+    </header>
+
+    
+    <hr>
+
+    
+    <nav style="text-align: center;">>
+        <a href="pageAccueil.html">Accueil</a> |
+        <a href="page_calcul3.html">Calculateur d'Empreinte</a> |
+        <a href="#conseils">Conseils</a> |
+        <a href="#boutique">Boutique</a> |
+        <a href="page_dons3.html">Dons</a>
+    </nav>
+<br><br>
+<body>
+
+    <header>
+        <h1>Calculateur d'Empreinte Carbone</h1>
+    </header>
+
+        <section>
+        <form id="empreinteForm">
+            <h2>Veuillez remplir les informations suivantes :</h2>
+
+            <fieldset>
+                <legend>Moyens de transport utilisés par semaine :</legend>
+                <table>
+                    <tr>
+                        <td><label for="pied">À pied (heures/semaine) :</label></td>
+                        <td><input type="number" id="pied" name="pied" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="voiture">Voiture (heures/semaine) :</label></td>
+                        <td><input type="number" id="voiture" name="voiture" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="bus">Bus (heures/semaine) :</label></td>
+                        <td><input type="number" id="bus" name="bus" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="avion">Avion (heures/semaine) :</label></td>
+                        <td><input type="number" id="avion" name="avion" required></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Alimentation :</legend>
+                <table>
+                    <tr>
+                        <td><label for="alimentation">Choisissez votre type d'alimentation :</label></td>
+                        <td>
+                            <select id="alimentation" name="alimentation" required>
+                                <option value="vegetarien">Végétarien</option>
+                                <option value="vegetalien">Végétalien</option>
+                                <option value="omnivore">Omnivore</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Appareils électroniques :</legend>
+                <table>
+                    <tr>
+                        <td><label><input type="checkbox" id="telephone"> Téléphone (heures/jour) :</label></td>
+                        <td><input type="number" id="telephoneHours" placeholder="heures" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox" id="tablette"> Tablette (heures/jour) :</label></td>
+                        <td><input type="number" id="tabletteHours" placeholder="heures" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox" id="pcPortable"> PC Portable (heures/jour) :</label></td>
+                        <td><input type="number" id="pcPortableHours" placeholder="heures" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox" id="pcBureau"> PC Bureau (heures/jour) :</label></td>
+                        <td><input type="number" id="pcBureauHours" placeholder="heures" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox" id="tv"> TV (heures/jour) :</label></td>
+                        <td><input type="number" id="tvHours" placeholder="heures" min="0"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Déchets produits :</legend>
+                <table>
+                    <tr>
+                        <td><label for="dechets">Déchets produits par semaine (en kg) :</label></td>
+                        <td><input type="number" id="dechets" name="dechets" required></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Appareils électroménagers :</legend>
+                <table>
+                    <tr>
+                        <td><label><input type="checkbox" id="frigorifique"> Réfrigérateur (heures/jour) :</label></td>
+                        <td><input type="number" id="frigorifiqueHours" placeholder="heures" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox" id="four"> Four (heures/jour) :</label></td>
+                        <td><input type="number" id="fourHours" placeholder="heures" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox" id="microOnde"> Micro-onde (heures/jour) :</label></td>
+                        <td><input type="number" id="microOndeHours" placeholder="heures" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox" id="ferRepasser"> Fer à repasser (heures/jour) :</label></td>
+                        <td><input type="number" id="ferRepasserHours" placeholder="heures" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox" id="aspirateur"> Aspirateur (heures/jour) :</label></td>
+                        <td><input type="number" id="aspirateurHours" placeholder="heures" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox" id="machineLaver"> Machine à laver (heures/jour) :</label></td>
+                        <td><input type="number" id="machineLaverHours" placeholder="heures" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox" id="laveVaisselle"> Lave-vaisselle (heures/jour) :</label></td>
+                        <td><input type="number" id="laveVaisselleHours" placeholder="heures" min="0"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <input type="submit" value="Calculer l'Empreinte Carbone">
+        </form>
+    </section>
+
+<hr>
+<footer>
+    <div class="footer-container" style="display: flex; justify-content: space-between; ">
+
+        <div class="footer-section" style="text-align: left;">
+            <h3>Liens rapides</h3>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section" style="text-align: center;">
+            <h3>Suivez-nous</h3>
+            <ul>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://instagram.com">Instagram</a></li>
+                <li><a href="https://linkedin.com">LinkedIn</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section" style="text-align: center;">
+            <h3>Contact</h3>
+            <p>Email : contact@votresite.com</p>
+            <p>Téléphone : +212 123 456 789</p>
+        </div>
+    </div>
+    <div class="footer-bottom" style="text-align: center; padding: 10px;">
+        <p>&copy; 2024 Votre Site. Tous droits réservés.</p>
+    </div>
+</footer>
+</body>
+</html>

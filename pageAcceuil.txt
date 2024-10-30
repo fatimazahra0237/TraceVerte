@@ -1,0 +1,99 @@
+
+
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur d'Empreinte Écologique</title>
+</head>
+<body>
+    
+    <header>
+        <table style="width: 100%;">
+            <tr>
+                <td><img src="logo.png" alt="Logo du site" width="50" height="50"></td>
+                <td style="text-align: center;"><h1 style="margin: 0;">Calculateur d'Empreinte Écologique</h1></td>
+                <td style="text-align: right;"><input type="text" placeholder="Rechercher..."></td>
+            </tr>
+        </table>
+    </header>
+
+    
+    <hr>
+
+    
+    <nav style="text-align: center;">>
+        <a href="pageAcceuil.html">Accueil</a> |
+        <a href="page_calcul3.html">Calculateur d'Empreinte</a> |
+        <a href="#conseils">Conseils</a> |
+        <a href="#boutique">Boutique</a> |
+        <a href="page_dons3.html">Dons</a>
+    </nav>
+<br><br>
+ 
+        <table border="1">
+            <tr>
+                <td>
+                    <h1>Agissons Ensemble pour un Avenir Durable !</h1>
+                    <p style="text-align: justify;">
+                        Chaque jour, nous avons l'opportunité de faire une différence. En réduisant nos émissions de CO₂, nous participons activement à la protection 
+                        de notre planète. Saviez-vous que de simples actions, comme adopter des modes de transport écologiques, réduire notre consommation d'énergie 
+                        ou privilégier les produits locaux, peuvent significativement diminuer notre empreinte carbone ? Chaque geste compte et s'additionne pour créer
+                        un impact positif. En nous engageant collectivement, nous avons le pouvoir de bâtir un avenir durable, où les générations futures pourront 
+                        prospérer dans un environnement sain. Ensemble, faisons de notre planète une priorité et devenons les acteurs du changement que nous souhaitons
+                        voir.
+                    </p>
+                </td>
+                <td>
+                    <img src="photo_acceuil.jpg" alt="Image de la nature" width="600" height="400">
+                </td>
+            </tr>
+        </table>
+    
+
+    
+    <section>
+        <h2>Votre avis sur le site</h2>
+        <p>Aidez-nous à améliorer votre expérience en laissant un commentaire !</p>
+        <textarea placeholder="Votre feedback..."></textarea>
+        <button type="button">Envoyer</button>
+    </section>
+<hr>
+<footer>
+    <div class="footer-container" style="display: flex; justify-content: space-between; ">
+
+        <div class="footer-section" style="text-align: left;">
+            <h3>Liens rapides</h3>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section" style="text-align: center;">
+            <h3>Suivez-nous</h3>
+            <ul>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://instagram.com">Instagram</a></li>
+                <li><a href="https://linkedin.com">LinkedIn</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section" style="text-align: center;">
+            <h3>Contact</h3>
+            <p>Email : contact@votresite.com</p>
+            <p>Téléphone : +212 123 456 789</p>
+        </div>
+    </div>
+    <div class="footer-bottom" style="text-align: center; padding: 10px;">
+        <p>&copy; 2024 Votre Site. Tous droits réservés.</p>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
